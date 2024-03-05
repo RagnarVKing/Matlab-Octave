@@ -1,0 +1,30 @@
+#Copyright EftenieAndrei-Vlad
+
+1. Markov is coming ... presupune gasirea celui mai bun drum pana la starea de WIN.
+Problema consta in 7 functii :
+1.1 parse_labyrinth - citeste matricea codificarilor labirintului dintr-un fisier
+1.2 get_adjacency_matrix - formeaza matricea de adiacenta, avand matricea labirint
+1.3 get_link_matrix - formeaza matricea legaturilor, avand matricea labirint
+1.4 get_Jacobi_parameters - formeaza parametrii factorizarii lui Jacobi, G si c, avand matricea legaturilor
+1.5 perform_iterative - formeaza vectorul, care contine probabilitatea fiecarei casute
+1.6 heuristic_greedy - formeaza vectorul, care contine calea catre starea WIN
+1.7 decoded_path - formeaza matricea de indici a vectorului, care contine calea catre starea WIN
+
+2. Linear Regression presupune un algoritm de machine learning.
+Problema consta in 8 functii :
+1.1 parse_data_set_file - citeste matricea, pentru un set, dintr-un fisier
+1.2 prepare_for_regression - prelucreaza matricea, transformand-o in int-uri
+1.3 linear_regression_cost_function - implementeaza functia de cost
+1.4 parse_csv_file - citeste matricea, pentru un set, dintr-un fisier de tip csv
+1.5 gradient_descent - calculeaza coeficientii theta, folosind tehnica gradientului descendent
+1.6 normal_equation - calculeaza coeficientii theta, folosind tehnica gradientului conjugat
+1.7 lasso_regression_cost_function - implementeaza functia complexa de cost
+1.8 ridge_regression_cost_function - implementeaza functia completa de cost
+
+3. MNIST 101 presupune un algoritm de inteligenta artificiala, care recunoaste cifrele scrise de mana.
+Problema consta in 5 functii : 
+1.1 load_dataset - citeste matricea dintr-un fisier
+1.2 split_dataset - imparte matricea in vectorii si matricele corespunzatoare
+1.3 initialize_weights - aplica transformarea liniara intre cele 2 straturi de neuroni
+1.4 cost_function - calculeaza functia de cost cu ajutorul algoritmilor forward si backward propagation
+1.5 predict_classes
